@@ -5,18 +5,12 @@
 }
 
 .tm-header{
-    background: #A52A2A;
+    background: #6D7B8D;
     display: block;
     padding: 20px;
     
 }
 
-.tm-logo{
-    align-content: center;
-    display: block;
-    margin: 0 auto;
-    width: 30%;
-}
 
 .tm-nav{
    max-width: 90%;
@@ -105,7 +99,7 @@
 
 .tm-rooms{
     display: block;
-    background: #353535;
+    background: #6D7B8D;
     max-width: 33.33%;
     width: 33.33%;
 }
@@ -132,7 +126,7 @@ padding: 5%;
 }
 
 .tm-rooms a p:hover{
-    color: #ec3c6a;
+    color: #6D7B8D;
 
 
 }
@@ -185,21 +179,6 @@ padding-bottom: 10%;
 }
 
 
-/* review */
-
-
-
-.tm-review{
-    background: #353535;
-    padding-bottom: 5%;
-    
-}
-
-.tm-review::after{
-    content:" ";
-    display: block;
-    clear: both;
-}
 
 .tm-revcon{
     float: left;
@@ -227,21 +206,12 @@ padding-bottom: 10%;
 
 
 
-.tm-stars{
- display: block;
-    padding-left: 5%;
-}
-.tm-stars img{
-    width: 4%;
-    height: auto;
-}
-
 
 
 /* Make reservation */
 
 .tm-res{
-    background: #cc4151;
+    background: #6D7B8D;
     padding: 2%;
 }
 
@@ -354,10 +324,10 @@ padding-bottom: 10%;
 }
 
 
-/* Explore sections */
+/* Index Explorer sections */
 
 .tm-exp1, .tm-exp2{
-    background: #353535;
+    background: #6D7B8D;
     
 }
 
@@ -495,7 +465,7 @@ display: inline-block;
 
 .tm-booking
 {
-     background: #353535;
+     background: #6D7B8D;
     position: relative;
 }
 .tm-form1, .tm-form2{
@@ -506,7 +476,7 @@ display: inline-block;
 
  div.vertical-line{
       width: 0.15%; 
-      background-color:  #ec3d68; 
+      background-color:  #6D7B8D; 
       height: 90%; 
       position: absolute;
          top: 6%;
