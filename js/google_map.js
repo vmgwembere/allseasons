@@ -49,12 +49,3 @@ function init() {
 
  
 
-// Navigate to city selected from search box
-function onCitySearch() {
-    removeMarkers(city_markers, cities_cluster);
-    var searched_city = [];
-    searched_city.push(autocomplete.getPlace());
-    createCityMarkers(searched_city);
-    new google.maps.event.trigger(city_markers[0], 'click');
-}
-google.maps.event.addDomListener(window, 'load', init);
