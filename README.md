@@ -5,11 +5,10 @@ to allow users to locate  their next holiday destination.
 
 Tourists can Find tourist attractions,Find accommodation.
  
-## UXD
  
 ### strategy
 
-    a destination island that is known for year round good weather a haven for those seeking a break. By using the google maps API  users
+   a destination island that is known for year round good weather a haven for those seeking a break. By using the google maps API  users
     can have a visual on where the island is and how easy it is to access. (this is a fictional island)
 
 ## ux
@@ -31,13 +30,13 @@ contact form to communicate any needs
 
 ## Technologies Used
 
-1.HTML5
-2.CSS3
-4.Javascript
-4.JQUERY
+-HTML5
+-CSS3
+-Javascript
+-JQUERY
 
 ## Testing
-This website was tested using Chrome development tools.
+This website was manually tested on various devices to make sure functionality worked as intended.
 
 ## Deployment
    This site is hosted using GitHub pages.
@@ -47,8 +46,7 @@ This website was tested using Chrome development tools.
 
 Image slider - Slick Slider - https://github.com/kenwheeler/slick
 Scroll to top - Scrollup - https://github.com/markgoodyear/scrollup
-Datepicker - pickmeup - https://github.com/nazar-pc/PickMeUp
-Spinner buttons - Handle Counter - https://github.com/nick-running/handle-counter
+
 
 site can be viewed here >> https://vmgwembere.github.io/allseasons/
 
