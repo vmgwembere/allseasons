@@ -43,9 +43,10 @@ This website was manually tested on various devices to make sure functionality w
    
 ## Acknowlogement
 
-
 Image slider - Slick Slider - https://github.com/kenwheeler/slick
 Scroll to top - Scrollup - https://github.com/markgoodyear/scrollup
+Datepicker - pickmeup - https://github.com/nazar-pc/PickMeUp
+Spinner buttons - Handle Counter - https://github.com/nick-running/handle-counter
 
 
 site can be viewed here >> https://vmgwembere.github.io/allseasons/
