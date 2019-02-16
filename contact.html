@@ -2,22 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Luxury Island</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="dist/pickmeup.min.js"></script>
-    <script type="text/javascript" src="dist/handleCounter.js"></script>
     <link rel="stylesheet" type="text/css" href="css/pickmeup.css">
     <link rel="stylesheet" type="text/css" href="css/handle-counter.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script type="text/javascript" src="dist/jquery.scrollUp.js"></script>
+    
      <script type="text/javascript" src="dist/demo.js"></script>
 
+   
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_qf5tOP2wOuBia3ao7lwsH");
+        })();
+    </script>
+    
     
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOQB6oAwAMOC-ZsxrMRNF_zr9Jt0BQyaA&callback=initMap">
     </script>
 
+ 
  
     
     </head>
@@ -46,22 +56,24 @@
     
     <section class="tm-booking">
     
-    <form>
-        <div class="tm-form1">
+ <form onsubmit="return sendMail(this);">
+   <div class="tm-form1">
     <input type="text" name="name" placeholder="Name">  
     <input type="email" name="email" placeholder="E-mail"> 
-            <textarea  placeholder="Your message..." rows="4" ></textarea>
+    <textarea rows="4" name="projectsummary" class="form-control" id="projectsummary" placeholder="Your Request" required></textarea>        
    
             <input type="submit" id="sub2" value="Send">
 
     </div>
-        </form> 
+ </form>     
+        
+       
         
         <div class="vertical-line"> </div>
         
     <div class="tm-form2">
    <div class="tm-cl">
-        <p class="here">We are situated over here</p><img id="place" src="images/placeholder.png">
+        <p class="here">We are situated over here</p><img id="place" src="/assets/images/placeholder.png">
 
         <div id="map"></div>
 
@@ -75,7 +87,7 @@
     <footer class="tm-footer">
         <div class="tm-us">
         <p class="bold">About Us</p>
-        <p> <p>We are a small tropical island situated near Hawai and 
+        <p> <p>We are a small tropical island situated near Long Island and 
             provide a luxurious stay for our guests. Our many years in
             the service industry ensure we provide value and excellence with many of our 
             guests visiting  us over and over again.</p>    
@@ -83,16 +95,24 @@
        
         <div class="tm-address">
         <p class="bold">Address</p>
-        <p>Luxury island, Hawain islands
+        <p>Luxury island, Tropical Gateaways
             Phone : (412) 834514567
             Email : info@luxuryisland.com</p>     
         </div>
     </footer>
     
-     <!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOQB6oAwAMOC-ZsxrMRNF_zr9Jt0BQyaA&sensor=false"></script>
+    <script src="assets/js/sendEmail.js"></script> 
+    
+      <!-- Google Map -->
+    
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        	<script src="assets/js/google_map.js"></script>
+
+	
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOQB6oAwAMOC-ZsxrMRNF_zr9Jt0BQyaA&callback=initMap"></script>
 	                                                         
-	<script src="js/google_map.js"></script>
+
+	
     
     </body>
     
