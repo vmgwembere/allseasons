@@ -24,7 +24,7 @@ Simple navigation and clear clean feel
 The pages follow principles of Minimalism and provides just the features nothing more.
 
 ## Wireframes and Mockups
-
+https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135952.jpg
 ## Features
 
 Prebooking of rooms and reservation
