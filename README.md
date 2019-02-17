@@ -5,13 +5,12 @@ to allow users to locate  their next holiday destination.
 
 Tourists can Find tourist attractions,Find accommodation.
  
-<<<<<<< HEAD
 ## UXD
  
 ### strategy
 
     a destination island that is known for year round good weather a haven for those seeking a break. By using the google maps API  users
-=======
+
  
 ### strategy
 
@@ -24,6 +23,8 @@ Tourists can Find tourist attractions,Find accommodation.
 Simple navigation and clear clean feel
 The pages follow principles of Minimalism and provides just the features nothing more.
 
+## Wireframes and Mockups
+
 ## Features
 
 Prebooking of rooms and reservation
@@ -35,7 +36,7 @@ contact form to communicate any needs
 
 ### Features Left to Implement
 - visiting dates and departure calender
-<<<<<<< HEAD
+
 
 ## Technologies Used
 
@@ -60,7 +61,8 @@ Spinner buttons - Handle Counter - https://github.com/nick-running/handle-counte
 
 
 - 
-=======
+
+
 
 ## Technologies Used
 
@@ -85,4 +87,4 @@ Spinner buttons - Handle Counter - https://github.com/nick-running/handle-counte
 
 site can be viewed here >> https://vmgwembere.github.io/allseasons/
 
->>>>>>> 9f22304fcac0cc3b6c9819a5573790e2f1315626
+
