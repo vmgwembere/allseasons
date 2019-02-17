@@ -15,7 +15,7 @@ Tourists can Find tourist attractions,Find accommodation.
 ### strategy
 
    a destination island that is known for year round good weather a haven for those seeking a break. By using the google maps API  users
->>>>>>> 9f22304fcac0cc3b6c9819a5573790e2f1315626
+
     can have a visual on where the island is and how easy it is to access. (this is a fictional island)
 
 ## ux
@@ -24,9 +24,15 @@ Simple navigation and clear clean feel
 The pages follow principles of Minimalism and provides just the features nothing more.
 
 ## Wireframes and Mockups
-https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135952.jpg
 
-https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135914.jpg
+
+![Wireframe 1](https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135914.jpg)
+
+
+
+![Mockup - Mobile](https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135952.jpg)
+
+
 ## Features
 
 Prebooking of rooms and reservation
