@@ -25,6 +25,8 @@ The pages follow principles of Minimalism and provides just the features nothing
 
 ## Wireframes and Mockups
 https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135952.jpg
+
+https://github.com/vmgwembere/allseasons/blob/master/assets/images/20190217_135914.jpg
 ## Features
 
 Prebooking of rooms and reservation
